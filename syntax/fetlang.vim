@@ -2,50 +2,45 @@ if exists('b:current_syntax')
 	finish
 endif
 
-" -- Keyword {{{1
-" --------------------------------------------------------------------------------------------------
-
-syntax match fetlangKeyword '\v\c<spank>'
-syntax match fetlangKeyword '\v\c<worship>'
-syntax match fetlangKeyword '\v\c<flog>'
-syntax match fetlangKeyword '\v\c<lick>'
-syntax match fetlangKeyword '\v\c<tickle>'
-syntax match fetlangKeyword '\v\c<moan>'
-syntax match fetlangKeyword '\v\c<scream>'
-syntax match fetlangKeyword '\v\c<torture>'
-syntax match fetlangKeyword '\v\c<tie up>'
-syntax match fetlangKeyword '\v\c<hogtie>'
-syntax match fetlangKeyword '\v\c<assert dominance over>'
-syntax match fetlangKeyword '\v\c<assert equality with>'
-syntax match fetlangKeyword '\v\c<demand obedience of>'
-syntax match fetlangKeyword '\v\c<obey>'
-syntax match fetlangKeyword '\v\c<serve>'
-
-highlight link fetlangKeyword Keyword
-
 " -- Function {{{1
 " --------------------------------------------------------------------------------------------------
 
-syntax match fetlangFunction '\v\c<make>'
-syntax match fetlangFunction '\v\c<have>'
-syntax match fetlangFunction '\v\c<bind>'
-syntax match fetlangFunction '\v\c<call safeword>'
+syntax match fetlangFunction '\v\c<spank>'
+syntax match fetlangFunction '\v\c<worship>'
+syntax match fetlangFunction '\v\c<flog>'
+syntax match fetlangFunction '\v\c<lick>'
+syntax match fetlangFunction '\v\c<tickle>'
+syntax match fetlangFunction '\v\c<moan>'
+syntax match fetlangFunction '\v\c<scream>'
+syntax match fetlangFunction '\v\c<torture>'
+syntax match fetlangFunction '\v\c<tie up>'
+syntax match fetlangFunction '\v\c<hogtie>'
+syntax match fetlangFunction '\v\c<assert dominance over>'
+syntax match fetlangFunction '\v\c<assert equality with>'
+syntax match fetlangFunction '\v\c<demand obedience of>'
+syntax match fetlangFunction '\v\c<obey>'
+syntax match fetlangFunction '\v\c<serve>'
 
 highlight link fetlangFunction Function
 
-" -- Repeat {{{1
+" -- Keyword {{{1
 " --------------------------------------------------------------------------------------------------
 
-syntax match fetlangRepeat '\v\c<while>'
-syntax match fetlangRepeat '\v\c<until>'
+syntax match fetlangKeyword '\v\c<make>'
+syntax match fetlangKeyword '\v\c<have>'
+syntax match fetlangKeyword '\v\c<bind>'
+syntax match fetlangKeyword '\v\c<call safeword>'
+syntax match fetlangKeyword '\v\c<while>'
+syntax match fetlangKeyword '\v\c<until>'
+syntax match fetlangKeyword '\v\c<if>'
+syntax match fetlangKeyword '\v\c<otherwise>'
+syntax match fetlangKeyword '\v\c<to>'
 
-highlight link fetlangRepeat Repeat
+highlight link fetlangKeyword Keyword
 
 " -- Conditional {{{1
 " --------------------------------------------------------------------------------------------------
 
-syntax match fetlangConditional '\v\c<if>'
-syntax match fetlangConditional '\v\c<otherwise>'
 syntax match fetlangConditional '\v\c<is>'
 syntax match fetlangConditional '\v\c<is not>'
 syntax match fetlangConditional '\v\c<is submissive to>'
@@ -85,6 +80,11 @@ syntax match fetlangSpecial '\v\c<saint andrew>'
 highlight link fetlangSpecial Special
 
 " }}}
+
+highlight Comment ctermfg=LightGreen cterm=none
+highlight Keyword ctermfg=DarkBlue cterm=bold
+highlight Function ctermfg=cyan term=none
+highlight Special cterm=bold
 
 let b:current_syntax = 'fetlang'
 
