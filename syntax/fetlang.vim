@@ -2,6 +2,17 @@ if exists('b:current_syntax')
 	finish
 endif
 
+" -- Keyword {{{1
+" --------------------------------------------------------------------------------------------------
+
+syntax match fetlangKeyword '\v\c<make>'
+syntax match fetlangKeyword '\v\c<have>'
+syntax match fetlangKeyword '\v\c<bind>'
+syntax match fetlangKeyword '\v\c<call safeword>'
+syntax match fetlangKeyword '\v\c<to>'
+
+highlight link fetlangKeyword Keyword
+
 " -- Function {{{1
 " --------------------------------------------------------------------------------------------------
 
@@ -23,24 +34,19 @@ syntax match fetlangFunction '\v\c<serve>'
 
 highlight link fetlangFunction Function
 
-" -- Keyword {{{1
+" -- Repeat {{{1
 " --------------------------------------------------------------------------------------------------
 
-syntax match fetlangKeyword '\v\c<make>'
-syntax match fetlangKeyword '\v\c<have>'
-syntax match fetlangKeyword '\v\c<bind>'
-syntax match fetlangKeyword '\v\c<call safeword>'
-syntax match fetlangKeyword '\v\c<while>'
-syntax match fetlangKeyword '\v\c<until>'
-syntax match fetlangKeyword '\v\c<if>'
-syntax match fetlangKeyword '\v\c<otherwise>'
-syntax match fetlangKeyword '\v\c<to>'
+syntax match fetlangRepeat '\v\c<while>'
+syntax match fetlangRepeat '\v\c<until>'
 
-highlight link fetlangKeyword Keyword
+highlight link fetlangRepeat Repeat
 
 " -- Conditional {{{1
 " --------------------------------------------------------------------------------------------------
 
+syntax match fetlangConditional '\v\c<if>'
+syntax match fetlangConditional '\v\c<otherwise>'
 syntax match fetlangConditional '\v\c<is>'
 syntax match fetlangConditional '\v\c<is not>'
 syntax match fetlangConditional '\v\c<is submissive to>'
@@ -80,11 +86,6 @@ syntax match fetlangSpecial '\v\c<saint andrew>'
 highlight link fetlangSpecial Special
 
 " }}}
-
-highlight Comment ctermfg=LightGreen cterm=none
-highlight Keyword ctermfg=DarkBlue cterm=bold
-highlight Function ctermfg=cyan term=none
-highlight Special cterm=bold
 
 let b:current_syntax = 'fetlang'
 
