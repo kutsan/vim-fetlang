@@ -77,10 +77,10 @@ highlight link fetlangString String
 " -- Special {{{1
 " --------------------------------------------------------------------------------------------------
 
-syntax match fetlangSpecial '\v\cslave'
-syntax match fetlangSpecial '\v\cmistress'
-syntax match fetlangSpecial '\v\cdungeon master'
-syntax match fetlangSpecial '\v\csaint andrew'
+syntax match fetlangSpecial '\v\c<slave>'
+syntax match fetlangSpecial '\v\c<mistress>'
+syntax match fetlangSpecial '\v\c<dungeon master>'
+syntax match fetlangSpecial '\v\c<saint andrew>'
 
 highlight link fetlangSpecial Special
 
