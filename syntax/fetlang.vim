@@ -75,6 +75,31 @@ syntax region fetlangString start=/\v"/ skip=/\v\\./ end=/\v"/
 
 highlight link fetlangString String
 
+" -- Number {{{1
+" --------------------------------------------------------------------------------------------------
+
+syntax match fetlangNumber '\v\czero'
+syntax match fetlangNumber '\v\cone'
+syntax match fetlangNumber '\v\ctwo'
+syntax match fetlangNumber '\v\cthree'
+syntax match fetlangNumber '\v\cfour'
+syntax match fetlangNumber '\v\cfive'
+syntax match fetlangNumber '\v\csix'
+syntax match fetlangNumber '\v\cseven'
+syntax match fetlangNumber '\v\ceight'
+syntax match fetlangNumber '\v\cnine'
+syntax match fetlangNumber '\v\cten'
+syntax match fetlangNumber '\v\chundred'
+syntax match fetlangNumber '\v\cthousand'
+syntax match fetlangNumber '\v\cmillion'
+syntax match fetlangNumber '\v\cbillion'
+syntax match fetlangNumber '\v\cquadrillion'
+syntax match fetlangNumber '\v\cquintillion'
+syntax match fetlangNumber '\v\csextillion'
+syntax match fetlangNumber '\v\ctimes?'
+
+highlight link fetlangNumber Number
+
 " -- Special {{{1
 " --------------------------------------------------------------------------------------------------
 
