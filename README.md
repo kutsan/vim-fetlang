@@ -10,6 +10,13 @@ Use your favorite plugin manager, eg. [vim-plug](https://github.com/junegunn/vim
 Plug 'kutsan/vim-fetlang'
 ```
 
+## Features
+
+- **syntax**: Syntax highlighting support.
+- **compiler**: Use `:make` to compile current file. `makeprg` will be `fetlang` compiler for Fetlang files.
+- **ftplugin**:
+	- **run**: Optional `<LocalLeader>r` mapping for compile, run and delete file. Disabled by default, enable with `let g:fetlang_set_run_mapping = 1`.
+
 ## License
 
 GPLv3
