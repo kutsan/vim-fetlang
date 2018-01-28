@@ -4,7 +4,7 @@ Vim language support for [Fetlang](https://github.com/Property404/fetlang), the 
 
 ## Installation
 
-Use your favorite plugin manager, eg. [vim-plug](https://github.com/junegunn/vim-plug).
+Use your favorite plugin manager, e.g. [vim-plug](https://github.com/junegunn/vim-plug):
 
 ```vim
 Plug 'kutsan/vim-fetlang'
