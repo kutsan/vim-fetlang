@@ -1,0 +1,87 @@
+*fetlang.txt* language support for the Fetlang programming language
+
+                            Language support for,
+                        __      _   _                                        ~
+                       / _| ___| |_| | __ _ _ __   __ _                      ~
+                      | |_ / _ \ __| |/ _` | '_ \ / _` |                     ~
+                      |  _|  __/ |_| | (_| | | | | (_| |                     ~
+                      |_|  \___|\__|_|\__,_|_| |_|\__, |                     ~
+                                                  |___/                      ~
+
+                    the fetish-themed programming language
+
+                        -      #####       .|||||.                           ~
+                              ####  \_    |||||||||                          ~
+                              ##=-[.].]  ||||||  .                           ~
+                         --   #(    _\   |||||                               ~
+                               #   __|  ||||||| -/                           ~
+                        -      _\   /   ||||||'(                             ~
+                              (  `-'|   .'      \                            ~
+                             / \  \/_.-'    | | |                            ~
+                            /   \____|_)     \ \ \                           ~
+                      --   |-----.._      `---:.`.\                          ~
+                     ______(_____   )          \\_\\____ ,--.__              ~
+          --    ,--""           /  / `-   .     |)_)    '\     '\            ~
+               /  "            /  /    .-'     /          \      '\          ~
+             ,/               /__/           .'            '\     |          ~
+             | "   "   "     [____)         /                '\,  /          ~
+             |           " , =_____`-.   .-'_________________,--""           ~
+           - |  "    "    /"/'      /\>-' ( <                                ~
+             \  "      ",/ /    -  ( <    |\_)                               ~
+              \   ",",_/,-'        |\_)                                      ~
+           -- -'-;.__:-'                                                     ~
+
+==============================================================================
+CONTENTS                                                      *fetlang-contents*
+
+               1. INTRO ................ |fetlang|
+               2. CONFIGURATION ........ |fetlang-configuration|
+               3. CONTRIBUTING ......... |fetlang-contributing|
+               4. LICENSE .............. |fetlang-license|
+               5. CREDITS .............. |fetlang-credits|
+
+==============================================================================
+INTRO                                                                  *fetlang*
+
+vim-fetlang provides initial language support for the Fetlang programming
+language. Support primarily includes syntax highlighting and compiler
+declarations. To enable this plugin, all you need to do is to open a file with
+`.fet` extension, or set the filetype to `fetlang` manually with the command
+`:set filetype=fetlang`.
+
+`makeprg` will be set to Fetlang compiler for Fetlang files. Thus, you can use
+`:make` to compile current file.
+
+There is also optional <LocalLeader>r mapping for compile, run and delete
+compiled file. It's disabled by default. See |fetlang-set-run-mapping| for
+further information.
+
+==============================================================================
+CONFIGURATION                                            *fetlang-configuration*
+
+Optional <LocalLeader>r mapping for compile, run and delete compiled file. It's
+disabled by default, you can enable with:
+>
+    let g:fetlang_set_run_mapping = 1
+<
+
+==============================================================================
+CONTRIBUTING                                              *fetlang-contributing*
+
+Any contribution can be done through pull requests. You can create one via
+GitHub https://github.com/kutsan/vim-fetlang.
+
+==============================================================================
+LICENSE                                                        *fetlang-license*
+
+GPLv3
+
+==============================================================================
+CREDITS                                                        *fetlang-credits*
+
+https://github.com/kutsan/vim-fetlang
+
+- Author: Kutsan Kaplan <me@kutsankaplan.com>
+- Creator of the Fetlang: Dagan Martinez
+
+vim: filetype=help textwidth=78 norightleft expandtab iskeyword+=-
