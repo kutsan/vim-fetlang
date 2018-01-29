@@ -117,7 +117,7 @@ syntax match fetlangNumber '\v\c<billion>'
 syntax match fetlangNumber '\v\c<quadrillion>'
 syntax match fetlangNumber '\v\c<quintillion>'
 syntax match fetlangNumber '\v\c<sextillion>'
-syntax match fetlangNumber '\v\ctimes?'
+syntax match fetlangNumber '\v\c<times?>'
 
 highlight link fetlangNumber Number
 
