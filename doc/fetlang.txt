@@ -1,4 +1,4 @@
-*fetlang.txt* language support for the Fetlang programming language
+*fetlang* language support for the Fetlang programming language
 
                             Language support for,
                         __      _   _                                        ~
@@ -32,16 +32,16 @@
            -- -'-;.__:-'                                                     ~
 
 ==============================================================================
-CONTENTS                                                      *fetlang-contents*
+0. Contents                                                   *fetlang-contents*
 
-               1. INTRO ................ |fetlang|
-               2. CONFIGURATION ........ |fetlang-configuration|
-               3. CONTRIBUTING ......... |fetlang-contributing|
-               4. LICENSE .............. |fetlang-license|
-               5. CREDITS .............. |fetlang-credits|
+               1. Intro                  |fetlang-intro|
+               2. Configuration          |fetlang-configuration|
+               3. Contributing           |fetlang-contributing|
+               4. License                |fetlang-license|
+               5. Credits                |fetlang-credits|
 
 ==============================================================================
-INTRO                                                                  *fetlang*
+1. Intro                                                         *fetlang-intro*
 
 vim-fetlang provides initial language support for the Fetlang programming
 language. Support primarily includes syntax highlighting and compiler
@@ -57,7 +57,7 @@ compiled file. It's disabled by default. See |fetlang-set-run-mapping| for
 further information.
 
 ==============================================================================
-CONFIGURATION                                            *fetlang-configuration*
+2. Configuration                                         *fetlang-configuration*
 
 Optional <LocalLeader>r mapping for compile, run and delete compiled file. It's
 disabled by default, you can enable with:
@@ -66,18 +66,18 @@ disabled by default, you can enable with:
 <
 
 ==============================================================================
-CONTRIBUTING                                              *fetlang-contributing*
+3. Contributing                                           *fetlang-contributing*
 
 Any contribution can be done through pull requests. You can create one via
 GitHub https://github.com/kutsan/vim-fetlang.
 
 ==============================================================================
-LICENSE                                                        *fetlang-license*
+4. License                                                     *fetlang-license*
 
 GPLv3
 
 ==============================================================================
-CREDITS                                                        *fetlang-credits*
+5. Credits                                                     *fetlang-credits*
 
 https://github.com/kutsan/vim-fetlang
 
