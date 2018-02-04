@@ -1,4 +1,4 @@
-function! fetlang#run#FetlangCompileAndRunFile()
+function! fetlang#run#compilerun()
 	let l:output = bufname('%')
 
 	execute '!' .

@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *.fet call fetlang#options#FetlangSetLocalOptions()
+autocmd BufNewFile,BufRead *.fet call fetlang#options#setlocaloptions()

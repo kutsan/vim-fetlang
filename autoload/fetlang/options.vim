@@ -1,4 +1,4 @@
-function! fetlang#options#FetlangSetLocalOptions()
+function! fetlang#options#setlocaloptions()
 	setfiletype fetlang
 	compiler fetlang
 	setlocal commentstring=(%s)
