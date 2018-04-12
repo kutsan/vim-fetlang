@@ -14,10 +14,8 @@ Plug 'kutsan/vim-fetlang'
 
 ## Features
 
-- **syntax**: Syntax highlighting support.
-- **compiler**: Use `:make` to compile current file. `makeprg` will be `fetlang` compiler for Fetlang files.
-- **ftplugin**:
-	- **run**: Optional `<LocalLeader>r` mapping for compile, run and delete compiled file. Disabled by default, enable with `let g:fetlang_set_run_mapping = 1`.
+- **Syntax** highlighting support.
+- **Compiler** support. Use `:make` to compile current file.
 
 ## License
 
