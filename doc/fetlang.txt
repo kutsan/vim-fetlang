@@ -60,7 +60,7 @@ GitHub https://github.com/kutsan/vim-fetlang.
 ==============================================================================
 4. License                                                     *fetlang-license*
 
-GPLv3
+GPL-3.0
 
 ==============================================================================
 5. Credits                                                     *fetlang-credits*

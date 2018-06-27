@@ -19,4 +19,4 @@ Plug 'kutsan/vim-fetlang'
 
 ## License
 
-GPLv3
+GPL-3.0
