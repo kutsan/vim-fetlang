@@ -1,4 +1,4 @@
-# vim-fetlang
+# `vim-fetlang` [![vint](https://github.com/kutsan/vim-fetlang/workflows/vint/badge.svg?branch=master)](https://github.com/kutsan/vim-fetlang/actions?query=workflow%3Avint)
 
 > Vim language support for [Fetlang](https://github.com/Property404/fetlang), the fetish-themed programming language.
 
